@@ -3,10 +3,14 @@ description:
 globs: 
 alwaysApply: true
 ---
-# Use up to date features and documentation
-When adding a new feature to the app, first check how similar features were implemented and then use a similar pattern.
-If you don't find a similar pattern, then use Context7 to retrieve up to date technical information related to implementing the feature.
+Project Context Rule
+- On starting a new conversation, load and parse the project README.md file to reconstruct context.
+- If README.md does not exist, create it using boilerplate project information.
+- After implementing changes, update README.md to record new components, packages, or project rules.
 
-For example, use context7 to retrieve Nextjs documenation on a feature before adding it to the app.
-
-For example, when creating a new UI component, first use context7 to check if a shadcn component exists that can be used, instead of creating one from scratch. Run the command to install the shadcn compoments.
+# Use up-to-date documentation and existing patterns
+When adding a new feature:
+- First, check if similar features or components already exist in the project and follow those patterns.
+- If no clear pattern exists, use Context7 to retrieve the latest technical documentation (e.g., Next.js or shadcn) before implementing.
+- Prefer reusing or installing existing components over building from scratch.
+- If a shadcn component is suitable, run the install command to add it instead of building from scratch.
