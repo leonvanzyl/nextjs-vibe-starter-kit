@@ -8,7 +8,7 @@ This is a boilerplate project for vibe coding projects, providing a modern full-
 - **NextAuth + Google Provider** - Authentication with Google OAuth
 - **Postgres Database + Drizzle ORM** - Type-safe database operations
 - **Shadcn + Tailwind** - Beautiful UI components and utility-first CSS
-- **Vercel AI SDK** - AI features (Text & Image Gen, Structured Output, Agents, etc)
+- **Langchain & LangGraph** - AI features (Text & Image Gen, Structured Output, Agents, etc)
 - **Vercel Blob Storage** - File storage solution
 
 ## Prerequisites
@@ -53,7 +53,7 @@ Fill in your environment variables:
 - Database connection string
 - NextAuth configuration
 - Google OAuth credentials
-- Vercel AI SDK keys
+- AI Provider keys
 - Other required API keys
 
 ### 4. Database Setup
