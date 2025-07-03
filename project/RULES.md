@@ -1,0 +1,11 @@
+Project Context Rule
+- On starting a new conversation, load and parse the project README.md file to reconstruct context.
+- After implementing changes, update README.md to record new components, packages, or project rules.
+- On starting a new conversation, load the package.json file to understand the libraries used in the project.
+
+# Use up-to-date documentation and existing patterns
+When adding a new feature:
+- First, check if similar features or components already exist in the project and follow those patterns.
+- If no clear pattern exists, use Context7 to retrieve the latest technical documentation (e.g., Next.js, shadcn, Langchain, Langgraph, NextAuth, Drizzle ORM) before implementing.
+- Prefer reusing or installing existing components over building from scratch.
+- If a shadcn component is suitable, run the install command to add it instead of building from scratch.
