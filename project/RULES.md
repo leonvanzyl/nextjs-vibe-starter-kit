@@ -22,4 +22,4 @@ When adding a new feature:
 # Deployment
 
 - When asked to deploy the app, first run build to ensure that everything compiles correctly.
-- When asked to deploy the app, run the vercel command to do so.
+- When asked to deploy the app, run the "vercel --prod" command to do so.
