@@ -18,3 +18,8 @@ When adding a new feature:
 - If no clear pattern exists, use Context7 to retrieve the latest technical documentation (e.g., Next.js, shadcn, Langchain, Langgraph, NextAuth, Drizzle ORM) before implementing.
 - Prefer reusing or installing existing components over building from scratch.
 - If a shadcn component is suitable, run the install command to add it instead of building from scratch.
+
+# Deployment
+
+- When asked to deploy the app, first run build to ensure that everything compiles correctly.
+- When asked to deploy the app, run the vercel command to do so.
