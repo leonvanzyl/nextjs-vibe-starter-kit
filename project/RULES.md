@@ -23,3 +23,7 @@ When adding a new feature:
 
 - When asked to deploy the app, first run build to ensure that everything compiles correctly.
 - When asked to deploy the app, run the "vercel --prod" command to do so.
+
+# AI functionality
+
+- If a solution requires RAG (Retrieval Augmented Generation), like if a file is uploaded that needs to be chunked and vectorized in order for an agent to answer questions on it, then use the PGVector extension on PostgreSQL and an OpenAI Embedding model.
