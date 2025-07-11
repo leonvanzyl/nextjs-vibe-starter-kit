@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Project Context Rule
 
 - On starting a new conversation, load and parse the project scratchpad (/project/SCRATCHPAD.md) file to reconstruct context.
@@ -27,3 +31,5 @@ When adding a new feature:
 # AI functionality
 
 - If a solution requires RAG (Retrieval Augmented Generation), like if a file is uploaded that needs to be chunked and vectorized in order for an agent to answer questions on it, then use the PGVector extension on PostgreSQL and an OpenAI Embedding model.
+- For the chunking and upsert process, please ensure that you are using the recursive character text splitter with a 2000 character chunk size and a 200 char overlap.
+- For the embeddings, use OpenAI's text-embedding-3-small model.
